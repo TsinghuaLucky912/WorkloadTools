@@ -1050,7 +1050,7 @@ namespace WorkloadTools.Consumer.Analysis
             }
             catch(SqlException e)
             {
-                logger.Trace("Unable to read saved classifiers from the analyssi database: {0}", e.Message);
+                logger.Trace("Unable to read saved classifiers from the analysis database: {0}", e.Message);
             }
             catch(Exception e)
             {
@@ -1155,7 +1155,7 @@ namespace WorkloadTools.Consumer.Analysis
 				}
 			}
             catch(Exception e) {
-                logger.Warn("Unable to create the target database for the analysisy", e.Message);
+                logger.Warn("Unable to create the target database for the analysis", e.Message);
             }
 
 		}
